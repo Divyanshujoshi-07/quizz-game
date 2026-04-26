@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI';
+  background: linear-gradient(135deg, #0f2027, #2c5364);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  max-width: 550px;
+  background: rgba(0,0,0,0.5);
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#options button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #ffffff20;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#options button:hover {
+  background: #00c9a7;
+  color: black;
+}
+
+#nextBtn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #ffcc00;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+@media(max-width:500px){
+  h1{font-size:20px;}
+}
